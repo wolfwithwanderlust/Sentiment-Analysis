@@ -1,0 +1,38 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+uvicorn = "*"
+joblib = "*"
+pylint = "*"
+pydantic = "*"
+coverage = "*"
+pandas = "*"
+numpy = "*"
+scikit-learn = "*"
+matplotlib = "*"
+plotly = "*"
+jupyter = "*"
+seaborn = "*"
+nltk = "*"
+transformers = "*"
+torch = "*"
+pytest = "*"
+tensorflow = "*"
+tf-keras = "*"
+spacy = "*"
+catboost = "*"
+streamlit = "*"
+requests = "*"
+mlflow = "*"
+databricks-sdk = "*"
+langdetect = "*"
+python-multipart = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
